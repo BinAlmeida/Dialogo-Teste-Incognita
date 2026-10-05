@@ -18,6 +18,14 @@ config/icon="res://icon.svg"
 
 Dialogic="*uid://ds2q0uclmolvu"
 
+[dialogic]
+
+directories/dch_directory={
+"character": "res://Dialogs/Characters/protagonista.dch"
+}
+directories/dtl_directory={}
+layout/style_directory={}
+
 [display]
 
 window/stretch/mode="canvas_items"
