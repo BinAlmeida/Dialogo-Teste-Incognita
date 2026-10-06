@@ -1,0 +1,8 @@
+[style name="base"]
+[background arg="res://assets/sprites/fundos/fundo-cientista.png" fade="0.1" transition="Simple Fade"]
+audio music "res://sounds/ambiente.mp3" [loop="true"]
+join protagonista left [length="0.0"]
+protagonista: Essa é uma fala teste
+leave 
+join cientista right [length="0.0" mirrored="true"]
+cientista: Essa tambem é uma fala teste
